@@ -22,8 +22,9 @@ players = {
 print(players)
 
 #2
+import math
 product_cost = 36.25
-print(int(product_cost))
+print(math.ceil(product_cost))
 
 #3
 import math
