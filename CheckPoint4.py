@@ -5,12 +5,15 @@ print(users)
 post = ("Titulo", "Subtitulo", "Contenido")
 print(post)
 
-product_cost = 36.25
-comision = 0.15
-qty = 5.00
+product_cost = 88.4
+comision = 0.08
+qty = 450
 print (product_cost)
 print (comision)
 print (qty)
+
+from decimal import Decimal
+print(Decimal(product_cost))
 
 players = {
   "Portero" : "Dabid",
